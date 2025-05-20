@@ -1,0 +1,71 @@
+.contact{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    position: relative;
+    height: auto;
+    z-index: 0;
+}
+
+.contact h1{
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1;
+    padding-bottom: 5%;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.contact form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.input-info h4{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    border-radius: 2rem;
+    margin: 1.5rem 0;
+    resize: none;
+}
+
+.input-info p{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    border-radius: 2rem;
+    margin: 1.5rem 0;
+    resize: none;
+}
+
+.btn-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 3rem;
+    background-color: #101010;
+    color: var(--main-color);
+    border-radius: 3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border: 2px solid var(--main-color);
+    box-shadow: 0 0 25px transparent;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 3%;
+}
+
+.btn-contact:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px var(--main-color),
+                0 0 50px var(--main-color);
+}

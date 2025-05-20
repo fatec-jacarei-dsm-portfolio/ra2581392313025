@@ -1,0 +1,45 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    background: var(--bg-color);
+}
+
+.about-image img{
+    display: flex;
+    width: 22vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--main1-color);
+    transition: 0.4s ease-in-out;
+}
+
+.about-image img:hover{
+    box-shadow: 0 0 25px #E98136,
+                0 0 50px #BC5CCB,
+                0 0 100px #85458F;
+}
+
+.about-content h1{
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1;
+    padding-bottom: 5%;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.about-content p{
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+}
+
+.about-content .btn{
+    margin: 3rem 0;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+}
